@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar with Iframe</title>
+    <!-- Updated Font Awesome CSS Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../../../Desktop/10000_coders_logo.jpeg" alt="">
+        </div>
+        <div class="nav">
+            <a href="home.html" target="content-frame">
+                <i class="fas fa-home"></i> <span>Home</span>
+            </a>
+            <a href="classes.html" target="content-frame">
+                <i class="fas fa-chalkboard-teacher"></i> <span>Classes</span>
+            </a>
+            <a href="notes.html" target="content-frame">
+                <i class="fas fa-book"></i> <span>Notes</span>
+            </a>
+            <a href="assignments.html" target="content-frame">
+                <i class="fas fa-tasks"></i> <span>Assignments</span>
+            </a>
+            <a href="projects.html" target="content-frame">
+                <i class="fas fa-project-diagram"></i> <span>Projects</span>
+            </a>
+            <a href="attendance.html" target="content-frame">
+                <i class="fas fa-check-circle"></i> <span>Attendance</span>
+            </a>
+            <a href="feedback.html" target="content-frame">
+                <i class="fas fa-comments"></i> <span>Feedback</span>
+            </a>
+            <a href="interview.html" target="content-frame">
+                <i class="fas fa-user-tie"></i> <span>Interview Prep</span>
+            </a>
+        </div>
+        <button class="report-bug">Report Bug</button>
+    </div>
+
+
+
+    <div class="rightbar">
+        <div class="header">
+            <h2>Welcome, A Rahul</h2>
+            <div class="profile">
+                <img src="../../../../Downloads/nature.jpg.jpg" alt="Profile Picture">
+                <span>Batch - 26r</span>
+            </div>
+        </div>
+        <div class="main-content">
+            <iframe name="content-frame" class="content-frame" src="home.html"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
